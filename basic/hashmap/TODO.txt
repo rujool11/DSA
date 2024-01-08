@@ -1,0 +1,1 @@
+Max and min frequency in array --> different question in leetcode, solve later

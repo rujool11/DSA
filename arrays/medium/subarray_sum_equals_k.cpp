@@ -10,9 +10,9 @@ public:
 
         for (int i=0;i<nums.size();i++){
 
-            sum += nums[i];
-            count += hash[sum-k];
-            hash[sum]++;
+            sum += nums[i]; // current prefix sum
+            count += hash[sum-k]; //number of subarrays with sum sum-k
+            hash[sum]++; // increment sum 
         
         }
 

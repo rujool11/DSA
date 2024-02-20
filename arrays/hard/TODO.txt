@@ -1,0 +1,1 @@
+for majority element 2, look up Boyer Moore majority vote algorithm solution

@@ -10,7 +10,7 @@ int merge(vector<int> &arr, int low, int mid, int high) {
             temp.push_back(arr[left]);
             left++;
         }
-        // right is smaller, so increment counter
+        // add to counter when condition failed, i.e, right is greater
         else {
             counter += (mid - left + 1);
             temp.push_back(arr[right]);
@@ -42,10 +42,10 @@ int mergeSort(vector<int> &arr, int low, int high) {
     int mid = (low + high) / 2 ;
     counter += mergeSort(arr, low, mid);  
     counter += mergeSort(arr, mid + 1, high); 
-    counter += merge(arr, low, mid, high);
+    counter += merge(arr, low, mid, high);  
     return counter;
 }
 
 int numberOfInversions(vector<int>&a, int n) {
-    return mergeSort(a, 0, n-1); //check  
+    return mergeSort(a, 0, n-1);
 }

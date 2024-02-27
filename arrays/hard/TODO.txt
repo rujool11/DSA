@@ -1,2 +1,3 @@
 for majority element 2, look up Boyer Moore majority vote algorithm solution
 Look up Gap method for merging arrays without extra space
+Look up differences between reverse_pairs and count_inversions once properly

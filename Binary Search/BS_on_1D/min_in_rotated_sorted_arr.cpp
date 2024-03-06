@@ -30,3 +30,6 @@ public:
        return res;
     }
 };
+
+// for finding out how many times an array has been rotated, just find 
+// out the index of min element

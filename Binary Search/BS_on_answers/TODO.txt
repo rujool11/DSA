@@ -1,2 +1,0 @@
-Nth root of M --> 8/11 test cases passed, look up proper complete solution
-Kth missing positive number, check Math + Binary Search solution

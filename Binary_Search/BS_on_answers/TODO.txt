@@ -1,3 +1,4 @@
 Nth root of M --> 8/11 test cases passed, look up proper complete solution
 Kth missing positive number, check Math + Binary Search solution
 IMPORTANT -- Check allocate books BS, (low returned instead of res/ (also can be used for different questions))
+Last 3 left -> minimize distance to gas station, median of 2 sorted arrays, Kth el of 2 sorted arrays

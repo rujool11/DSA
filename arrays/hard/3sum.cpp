@@ -59,7 +59,7 @@ public:
                     res.push_back(temp);
                     j++;
                     k--;
-                    while (j<k && nums[j]==nums[j-1]){j++;} // skip came j and k values
+                    while (j<k && nums[j]==nums[j-1]){j++;} // skip same j and k values
                     while (j<k && nums[k]==nums[k+1]){k--;}
                 }
             }

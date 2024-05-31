@@ -1,0 +1,2 @@
+revise sum of beauty and count count number of substrings, 
+look up some sliding window problems

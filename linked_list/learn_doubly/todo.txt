@@ -1,0 +1,2 @@
+reverse not working properly when implemented in DLL.cpp,
+check all linkages in all functions, etc one

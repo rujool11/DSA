@@ -1,0 +1,3 @@
+look up sorting in LL --> 
+Merge Sort in LL
+sort LL of 0s , 1s and 2s

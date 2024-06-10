@@ -1,4 +1,5 @@
 // GFG Better string
+// give string with more number of distinct subsequences
 // Recursion/ backtracking solution -> ideally, will be optimized using dp
 
 

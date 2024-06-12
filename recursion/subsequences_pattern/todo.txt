@@ -1,2 +1,4 @@
 look up generate parantheses
 revise all variations
+
+for most of these questions, DP would lead to a more efficient solution, revisit after DP

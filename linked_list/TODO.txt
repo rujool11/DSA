@@ -1,2 +1,6 @@
 reverse not working properly when implemented in DLL.cpp,
 check all linkages in all functions, etc one
+
+look up sorting in LL --> 
+Merge Sort in LL
+sort LL of 0s , 1s and 2s

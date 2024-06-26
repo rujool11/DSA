@@ -1,0 +1,3 @@
+revise all questions, 
+particularly --> Minimum window substring 
+do Minimum window subsequence 

@@ -19,7 +19,7 @@ public:
         while (right < fruits.size()) {
             hash[fruits[right]]++;
 
-            if (hash.size() > 2) {
+            if (hash.size() > 2) { // redundant, can directly write while, added if for clarity
                 while (hash.size() > 2) {
                     hash[fruits[left]]--;
                     if (hash[fruits[left]] == 0) hash.erase(fruits[left]);
@@ -29,7 +29,6 @@ public:
             }
 
             maxLen = max(maxLen, right - left + 1);
-
             right++;
         }
 

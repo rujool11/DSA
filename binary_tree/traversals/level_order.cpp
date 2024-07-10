@@ -1,5 +1,18 @@
 // Leetcode 102. Binary Tree Level Order Traversal
 
+
+// queue used for this 
+// FIFO -> push from back, pop from front
+// add root to queue
+// while q is not empty -> 
+// get size of q (necessary to avoid confusion due to dynamic q size)
+// keep level array for each level 
+// for loop from  0 to size -> 
+// set node to front of q, and pop front
+// push left and right children, if they exist, to q 
+// push value of node to level 
+// push level to ans
+
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

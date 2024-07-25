@@ -21,7 +21,7 @@ public:
     vector<vector<int>> subsets(vector<int>& nums) {
         vector<vector<int>> ans;
         // at each step, decide whether to include current element or not
-        // branchign -> one including, one excluding
+        // branching -> one including, one excluding
 
         //base case -> curr index = size of i/p
         vector<int> helper;

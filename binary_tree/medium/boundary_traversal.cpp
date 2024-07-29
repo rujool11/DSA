@@ -2,7 +2,7 @@
 // anticlockwise boundary traversal 
 
 // Left boundary excluding leaf nodes
-// Lean nodes
+// Leaf nodes
 // Right boundary in reverse excluding leaf nodes
 
 // for leaf nodes, not good to do level order and all the leafs may not be on same level

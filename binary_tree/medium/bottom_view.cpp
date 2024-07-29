@@ -19,6 +19,7 @@ class Solution {
             int line = p.second;
             
             hash[line] = node->data;
+            // update line with node value at every node, because we want the bottom most one
             
             if (node->left) q.push({node->left, line - 1});
             if (node->right) q.push({node->right, line + 1});

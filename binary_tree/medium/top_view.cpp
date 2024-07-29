@@ -7,12 +7,12 @@ public:
     // from left to right in Binary Tree.
 
     vector<int> topView(Node *root) {
-
+        // use level order traversal since it gives the top nodes first
         vector<int> res;
         if (root == nullptr) return res;
 
         queue<pair<Node *, int>> q; // (node, line)
-        map<int, int> hash;
+        map<int, int> hash; // (node -> value)
         q.push({root, 0});
 
         while (!q.empty()) {
@@ -23,7 +23,8 @@ public:
             int line = p.second;
 
             if (hash.find(line) == hash.end()) hash[line] = curr->data;
-            // since only to position required from one line, add first one
+            // if no node value corresponding to line, add current node value
+            // since only top position required from one line, add first one
 
             if (curr->left) q.push({curr->left, line - 1});
             if (curr->right) q.push({curr->right, line + 1});

@@ -5,3 +5,4 @@ iterative postorder 1 stack solution
 
 IMP -> Vertical Order Traversal understand properly
 revise right/ left side view recursive solution
+look up morris preorder/ inorder traversals and Flatten BT to linked list

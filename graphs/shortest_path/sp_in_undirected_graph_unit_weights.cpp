@@ -1,4 +1,5 @@
 // GFG Shortest Path in Undirected Graph
+// basically dijkstras, but use q instead of pq since unit weights so pq unnecessary
 
 class Solution {
   public:

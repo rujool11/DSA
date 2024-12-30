@@ -8,6 +8,7 @@ public:
         unordered_set<string> dict(wordList.begin(), wordList.end());
         
         dict.erase(beginWord); // delete start word if it exists
+        // basically marking visited is deleting from the set
 
         while (!q.empty()) {
             string word = q.front().first;
@@ -17,7 +18,7 @@ public:
             if (word == endWord) return steps;
 
             for (int i=0; i<word.size(); i++) {
-                int originalChar = word[i];
+                int originalChar = word[i]; // better to use char here
 
                 for (char x='a'; x <= 'z'; x++) {
                     word[i] = x;

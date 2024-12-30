@@ -1,5 +1,8 @@
 // Leetcode 785. Is Graph Bipartite ?
 
+
+// basically, 2 color graph coloring
+// cannot be bipartite if odd length cycle
 class Solution {
 public:
     bool dfs(vector<vector<int>>& graph, int color, int colors[], int node) {

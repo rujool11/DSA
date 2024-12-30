@@ -1,5 +1,9 @@
 // Leetcode 130. Surrounded regions
 // REMEMBER -> 'O' used , and not '0'
+
+
+// intution -> if any region is connected to the boundary , it is not converted
+// rest all O converted to X
 class Solution {
 private:
     void dfs(int row, int col, vector<vector<int>>& visited, vector<vector<char>>& board) {

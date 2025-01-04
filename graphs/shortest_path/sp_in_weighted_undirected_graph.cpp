@@ -1,4 +1,4 @@
-// GFG shortest path in weighted undirected graph (Dikjstra's algo)
+// GFG shortest path in weighted undirected graph ( using Dikjstra's algo and parents)
 
 class Solution {
   public:

@@ -1,1 +1,2 @@
 word ladder 2 look up 
+min multiplications to reach end revise

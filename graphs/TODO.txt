@@ -1,2 +1,3 @@
 word ladder 2 look up 
 min multiplications to reach end revise
+revise stones_removed (leetcode 947.)

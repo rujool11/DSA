@@ -1,4 +1,4 @@
-// Geeks for Geeks Subset Sums
+// GFG Subset Sums
 //{ Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;

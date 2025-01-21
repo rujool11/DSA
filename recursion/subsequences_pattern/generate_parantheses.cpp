@@ -9,7 +9,7 @@ public:
     }
 
     void generate(int open, int close, string current, vector<string>& result) {
-        // both open ans close 0 => valid combo formed, thus push in result
+        // both open and close 0 => valid combo formed, thus push in result
         if (open == 0 && close == 0) {
             result.push_back(current);
             return;

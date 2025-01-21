@@ -49,8 +49,11 @@ public:
             helper.push_back(i);
             doStuff(ans, helper, k, n-i, i+1);
             helper.pop_back();
+            // no need for another doStuff call here since that is taken care
+            // of by next iterations
         }
     }
+
     vector<vector<int>> combinationSum3(int k, int n) {
         vector<vector<int>> ans;
         vector<int> helper;

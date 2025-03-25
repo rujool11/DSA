@@ -35,7 +35,8 @@ public:
         if (dp[ind] != -1) return dp[ind];
 
         int pick = nums[ind] + f(ind-2, nums, dp);
-        int notpick = f(ind-1, nums, dp);
+        int notpick = 0 + f(ind-1, nums, dp); // 0 since we are not picking the current house;w
+
 
         return dp[ind] = max(pick, notpick);
     }

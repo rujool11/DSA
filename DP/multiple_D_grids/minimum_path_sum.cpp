@@ -1,4 +1,5 @@
 // Leetcode 64. minimum path sum
+// fixed starting point, fixed ending point
 
 // memoization -->
 class Solution {

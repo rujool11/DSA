@@ -45,4 +45,5 @@ class Solution {
             return nums;
         }
     };
-    
+
+// divide array into halves and then merge in correct order

@@ -1,5 +1,4 @@
-void insertionSort(int arr[], int n)
-{
+void insertionSort(int arr[], int n) {
     for (int i=1;i<n;i++){
         int j=i;
         while (arr[j]<arr[j-1] && j>0){
@@ -10,3 +9,6 @@ void insertionSort(int arr[], int n)
         }
     }
 }
+
+// in each iteration, insert one element in its correct position
+// from 0 to i, if arr[x] < arr[x-1], swap them and j--

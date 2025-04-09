@@ -12,3 +12,6 @@ void selectionSort(vector<int> &arr) {
         swap(arr[i],arr[min]);
     }
 }
+
+// in each iteration, select the smallest element 
+// from i to the end, and swap it with i

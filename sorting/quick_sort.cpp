@@ -15,7 +15,7 @@ public:
 
         while (i < j) {
             while (nums[i] <= pivot && i<=high) i++;
-            while (nums[i] > pivot && j>=low) j--;
+            while (nums[j] > pivot && j>=low) j--;
 
             if (i<j) swap(nums[i], nums[j]);
         }

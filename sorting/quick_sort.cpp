@@ -1,5 +1,6 @@
 // quick sort ->
 // pick a pivot element and place it in its correct position in sorted array
+// all elements to left smaller, all elements to right larger => that element is sorted
 // place elements smaller than pivot to its left and elements larger than pivot to its right
 
 class Solution {

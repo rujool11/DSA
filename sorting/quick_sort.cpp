@@ -36,3 +36,10 @@ public:
         return nums;
     }
 };
+
+// idea -> each element arranges themselves
+// eg. students in a class heightwise order
+// shortest goes at the start, tallest at the end
+// remaining arrange themselves
+// pivot compares with people beside them
+// if taller at front, shorter at back, then swap

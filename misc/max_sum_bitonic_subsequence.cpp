@@ -16,10 +16,9 @@ vector<int> constructBitonic(int n, int lo, int hi) {
     // since n = (r + s -1) => r + s = n + 1
     // avg = (n+1)/2, r = floor(avg), s = ceil(avg)
 
-    // maxlen no.s available = (hi- lo + 1)
 
-    int avail = hi - lo + 1;
-    if (n < 3 || n > avail) return {-1}; // not possible
+    int maxlen = 2*(hi-lo) + 1; // eg [2,5] -> [2,3,4,5,4,3,2] : 2*(5-2) + 1
+    if (n < 3 || n > maxlen) return {-1}; // not possible
 
     // n = r + s -1
     int r = (n+1)/2;

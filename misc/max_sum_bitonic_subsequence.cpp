@@ -6,11 +6,11 @@ vector<int> constructBitonic(int n, int lo, int hi) {
 
     // r -> len of increasing portion
     // s -> len of decreasing portion
-    // total length n = r + s -1 (-1 since peak counted in both)
+    // total length n = r + s - 1 (-1 since peak counted in both)
 
     // inc -> [hi-r+1, hi-r+2, ..., hi-1, hi]
     // dec -> [hi, hi-1, hi-2, ..., hi-s+1]
-    // total -> [hi-r+1, hi-r+1, ..., hi-1, hi, hi-1, ..., hi-s+1]
+    // total -> [hi-r+1, hi-r+2,  ..., hi-1, hi, hi-1, ..., hi-s+1]
 
     // max sum when both parts as close as possible i.e ideally 
     // since n = (r + s -1) => r + s = n + 1

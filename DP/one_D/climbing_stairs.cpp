@@ -6,6 +6,7 @@ public:
         // at each step, we could either have come from step n-1 (1 step) or step n-2 (2 steps)
         // d[n] = d[n-1] + d[n-2]
         // basically fibonacci
+        // this is the space and time optimized solution
 
         if (n == 0 || n == 1) return 1;
 
